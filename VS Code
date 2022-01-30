@@ -1,1 +1,67 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style> img
+    {
+      border: 1rem solid;
+    }
+    .img-container{
+        text-align: center;
+    }
+    .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+  
+    </style>
+<body>
+    <h1 class="img-container"> Health Chart </h1>
+    <table class="center" border = "1" cellpadding = "5" cellspacing = "5" style="border: 1px solid black">
+            <thead>
+                
+            </thead>
+            <tbody>
+                <caption> Health Chart </caption>
+                <tr style="text-align: center; background-color: lightseagreen;">
+                    <td rowspan="2">
+                        State of Health 
+                    </td>
+                    <td colspan="2"> 
+                        Fasting  Value
+                    </td>
+                    <td>
+                        After  Eating
+                    </td>
+                </tr>
+                    <tr style="background: blanchedalmond; text-align: center;">
+                
+                        <td>Minimum</td>
+                        <td>Maximum</td>
+                        <td>2 hours after eating</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>Healthy</td>
+                        <td>70</td>
+                        <td>100</td>
+                        <td>Less than 140</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>Pre-Diabetes</td>
+                        <td>101</td>
+                        <td>126</td>
+                        <td>140 to 200</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>Diabetes</td>
+                        <td>More than 126</td>
+                        <td>N/A</td>
+                        <td>More than 200</td>
+                    </tr>
+                </tbody>
+            </table>         
+</html>
